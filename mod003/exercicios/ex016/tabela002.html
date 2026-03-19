@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: aqua;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!--ANATOMIA PARA TABELAS GRANDE
+
+    <TABLE>
+        CAPTION
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+    </TABLE>
+
+    tr = define uma linha na tablea
+    th = título
+    td = dados
+    -->
+
+    <h1>Uso de Tabelas Grandes</h1>
+
+    <table>
+            <caption>
+                População das unidades federativas
+            </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+
+            <tr>
+                <td>Ceara</td>
+                <td class="num">45 919 049</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td>90 456 154</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae molestiae tempore magni ipsam pariatur consequatur voluptate sint necessitatibus accusantium rerum animi deserunt incidunt reprehenderit, quidem ipsa voluptatum aliquid ex alias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, tempora delectus iusto molestiae explicabo magni praesentium consequatur veritatis reiciendis similique quia veniam omnis ea nisi, alias ullam nulla repellendus laboriosam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam? Magni repudiandae sequi veniam culpa aliquam optio, praesentium odio esse eligendi molestiae dolorem hic perspiciatis voluptates, incidunt sint animi at? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo excepturi deleniti repellendus quis nobis. Qui quam reprehenderit molestias laudantium cupiditate quia? Animi eius veritatis voluptas nesciunt sed sint rerum. Delectus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae molestiae tempore magni ipsam pariatur consequatur voluptate sint necessitatibus accusantium rerum animi deserunt incidunt reprehenderit, quidem ipsa voluptatum aliquid ex alias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, tempora delectus iusto molestiae explicabo magni praesentium consequatur veritatis reiciendis similique quia veniam omnis ea nisi, alias ullam nulla repellendus laboriosam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam? Magni repudiandae sequi veniam culpa aliquam optio, praesentium odio esse eligendi molestiae dolorem hic perspiciatis voluptates, incidunt sint animi at? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo excepturi deleniti repellendus quis nobis. Qui quam reprehenderit molestias laudantium cupiditate quia? Animi eius veritatis voluptas nesciunt sed sint rerum. Delectus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae molestiae tempore magni ipsam pariatur consequatur voluptate sint necessitatibus accusantium rerum animi deserunt incidunt reprehenderit, quidem ipsa voluptatum aliquid ex alias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, tempora delectus iusto molestiae explicabo magni praesentium consequatur veritatis reiciendis similique quia veniam omnis ea nisi, alias ullam nulla repellendus laboriosam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam? Magni repudiandae sequi veniam culpa aliquam optio, praesentium odio esse eligendi molestiae dolorem hic perspiciatis voluptates, incidunt sint animi at? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo excepturi deleniti repellendus quis nobis. Qui quam reprehenderit molestias laudantium cupiditate quia? Animi eius veritatis voluptas nesciunt sed sint rerum. Delectus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae molestiae tempore magni ipsam pariatur consequatur voluptate sint necessitatibus accusantium rerum animi deserunt incidunt reprehenderit, quidem ipsa voluptatum aliquid ex alias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, tempora delectus iusto molestiae explicabo magni praesentium consequatur veritatis reiciendis similique quia veniam omnis ea nisi, alias ullam nulla repellendus laboriosam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam? Magni repudiandae sequi veniam culpa aliquam optio, praesentium odio esse eligendi molestiae dolorem hic perspiciatis voluptates, incidunt sint animi at? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo excepturi deleniti repellendus quis nobis. Qui quam reprehenderit molestias laudantium cupiditate quia? Animi eius veritatis voluptas nesciunt sed sint rerum. Delectus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae molestiae tempore magni ipsam pariatur consequatur voluptate sint necessitatibus accusantium rerum animi deserunt incidunt reprehenderit, quidem ipsa voluptatum aliquid ex alias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, tempora delectus iusto molestiae explicabo magni praesentium consequatur veritatis reiciendis similique quia veniam omnis ea nisi, alias ullam nulla repellendus laboriosam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam? Magni repudiandae sequi veniam culpa aliquam optio, praesentium odio esse eligendi molestiae dolorem hic perspiciatis voluptates, incidunt sint animi at? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo excepturi deleniti repellendus quis nobis. Qui quam reprehenderit molestias laudantium cupiditate quia? Animi eius veritatis voluptas nesciunt sed sint rerum. Delectus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae molestiae tempore magni ipsam pariatur consequatur voluptate sint necessitatibus accusantium rerum animi deserunt incidunt reprehenderit, quidem ipsa voluptatum aliquid ex alias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, tempora delectus iusto molestiae explicabo magni praesentium consequatur veritatis reiciendis similique quia veniam omnis ea nisi, alias ullam nulla repellendus laboriosam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, quibusdam? Magni repudiandae sequi veniam culpa aliquam optio, praesentium odio esse eligendi molestiae dolorem hic perspiciatis voluptates, incidunt sint animi at? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo excepturi deleniti repellendus quis nobis. Qui quam reprehenderit molestias laudantium cupiditate quia? Animi eius veritatis voluptas nesciunt sed sint rerum. Delectus?</p>
+</body>
+</html>
